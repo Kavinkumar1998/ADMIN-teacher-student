@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+    padding : 0px; 
+    margin : 0px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .main-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 143, 27);
   }
-  to {
-    transform: rotate(360deg);
+  
+  .heading{
+    padding : 50px; 
+    font-family: sans-serif;
   }
-}
+  
+  .main-segment{
+    width : 100%;
+    height: 75%;
+    text-align: center;
+  }
+  .card-container{
+    display: grid;
+    gap:0.5 rem;
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+    background-color: rgb(243, 241, 101);
+  }
+  .card{
+    margin:20px;
+  }
+  
+  .input{
+    background-color: rgb(224, 207, 46);
+  }
+  .children-segment{
+    border: 1px solid red;
+  }
+  .card-comp{
+   box-shadow : 3px 3px 10px 0px rgb(22, 11, 11);
+    background-color: rgb(231, 185, 33);
+  }
+  .Cardactions{
+    background-color: rgb(231, 185, 33);
+    justify-content: center;
+  }
+  .heading{
+    text-align: center;
+  }
+  .main-segment{
+    text-align: center;  
+  }
